@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(0, 0, 33);
+    color: white;
+    font-family: 'Poppins',sans-serif;
+}
+nav{
+    height: 80px;
+    background-color: rgb(18, 18, 62);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+ul{
+    display: flex;
+    justify-content: center;
+}
+li{
+    list-style: none;
+    text-decoration: none;
+    margin: 0 23px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover{
+    color: rgb(153, 153, 226);
+    font-size: 1.1rem;
+}
+.left{
+    font-size: 1.5rem;
+}
+.firstsection{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 23px 0px;
+    
+}
+.firstsection > div {
+    width: 30%;
+}
+.leftsection{
+    font-size: 2.8rem;
+   margin-top: 20px ;
+}
+.leftsection button{
+    padding: 50px;
+}
+.leftsection .btn {
+    padding: 12px;
+    border: 2px solid white;
+    background-color: #1e2167;
+    color: white;
+    border-radius: 6px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.rightsection img{
+    width: 130%;
+    
+}
+.purple{
+    color: rgb(135, 54, 211);
+}
+#element{
+    color: rgb(135, 54, 211);
+}
+.secondsection{
+    max-width: 80vw;
+    margin: auto;
+}
+main hr{
+    border: 0px;
+    background-color: #9c97f1;
+    height: 0.5px;
+    margin: 60px 84px ;
+}
+footer{
+    background-color: rgb(18, 18, 62);
+    height: 233px;
+    margin-top: 80px ;
+}
+.footer{
+    display: flex;
+    padding: 23px 122px;
+    justify-content: space-evenly;
+}
+.footer .footer-second li a{
+    text-decoration: none;
+    color: white;
+}
+.footer .footer-second li a:hover{
+    color: rgb(153, 153, 226);
+    font-size: 1.1rem;
+}
+footer .footer-rights{
+    text-align: center;
+    color: gray;
+    padding: 12px;
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">Vishal Prajapati's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="">Home</li></a>
+                    <li><a href="">About</li></a>
+                    <li><a href="">Skills</li></a>
+                    <li><a href="">Projects</li></a>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+                Hi! my name is <span class="purple"><b>Vishal Prajapati,</b></span>
+                <div>
+                    and I am a passionate
+                </div>
+                
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="btn">Download Resume</button>
+                    <button class="btn">Visit LinkedIn</button>
+                </div>
+            </div>
+            <div class="rightsection">
+                <img src="developer.1-removebg-preview.png" alt="">
+            </div>
+
+            
+        </section>
+           
+        <section class="secondsection">
+        
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>
+                    Social Media
+                </h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li><a href="https://m.facebook.com/profile.php?eav=Afa_EG7yr8Ei3Y4OF90gKMqcehIrRXPK91fXc3MLW3ZouMzK2r5zX4ZBqD1rx3OEI-w&paipv=0">Facebook</li></a>
+                    <li><a href="https://www.instagram.com/er.vishal_prajapati_/">Instagram</li></a>
+                    <li><a href="https://www.linkedin.com/in/vishal-prajapati-849702258/">LinkedIn</li></a>
+                    <li><a href="https://twitter.com/Vishal6212">Twitter</li></a>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-rights">
+            &#169; 2022-23 All rights reserved 
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Web Developer', 'Coder','Graphics Designer','Web Designer'],
+          typeSpeed: 50,
+        });
+      </script>
+</body>
+</html>
